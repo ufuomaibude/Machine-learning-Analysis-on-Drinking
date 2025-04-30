@@ -5,3 +5,31 @@ Please feel free to explore my projects, skills and areas of expertise in the fi
 
 
 
+
+# My Competencies
+▪	Machine Learning
+▪	Deep Learning
+▪	Natural Language Processing (NLP)
+▪	Data Mining
+▪	Statistical Modeling	▪	Predictive Analytics
+▪	Data Visualisation
+▪	Big Data Technologies
+▪	Cloud Computing
+▪	Database Management	▪	Database Administration 
+▪	 Issue Resolution
+▪	 Project Documentation
+▪	 Status Reporting
+▪	 Cross-Functional Collaboration
+
+
+# My Technical Skills
+▪	Programming & Analytics: Python (Pandas, NumPy, Scikit-learn), SQL
+▪	Data Visualization: Power BI, Tableau, Looker
+▪	Database Management: CiviCRM, Microsoft Excel (Advanced Formulas, Pivot Tables, VBA)
+▪	Cloud & AI Services: Microsoft Azure (AI & Data Fundamentals)
+▪	Project Management: Trello, Jira
+▪	Version Control & Collaboration: Git, GitHub
+
+
+
+

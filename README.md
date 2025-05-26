@@ -1,8 +1,23 @@
 # Introduction to Smoking and Drinking
-Smoking and alcohol consumption has over the years been a global challenging phenomenon with an overriding effect on consumer’s immediate behaviour and general long-term health. Studies over the years have found existing relationships between smoking and alcohol consumption, and its effect on the human body, which include, cancers, birth defects, cardiovascular diseases and other medical conditions.
-Global projection studies indicate that smoking has over the years had an adverse effect on the health and well-being of smokers. It also shows that tobacco smoking is a major cause of premature death and disabilities in the world.
+As part of my Master’s degree in Applied Artificial Intelligence and Data Analytics, I undertook a group project in the Applied Machine Learning and Big Data module. This module was designed to equip students with both theoretical understanding and practical skills in machine learning techniques and big data analytics, particularly how these can be applied across various domains to provide data-driven solutions. 
 
+# Project Overview: Analysis of Smoking and Drinking Behaviour for Predictive Intervention
+An objective-question-based exam (constituting 20% of the overall grade), which tested our conceptual understanding of machine learning, model evaluation techniques, and big data strategies. A group research project and technical report (constituting 80% of the overall grade), which focused on solving a real-world problem using machine learning models and tools.
+The group research project titled "Analysis of Smoking and Drinking Behaviour for Predictive Intervention" aimed to explore the use of machine learning models in identifying and mitigating the health risks associated with smoking and alcohol consumption. The objective was to leverage data-driven approaches to uncover patterns in health data, predict harmful behaviours, and provide timely interventions for affected individuals and public health stakeholders.
 
+# Objectives of Analysis
+•	To predict the smoking and Drinking status of persons in a population.
+•	To predict the health status of secondary smokers or persons who are not primarily smokers but are exposed to a smoke environment.
+•	To determine the relationship between the body signals and the smoking or drinking status of a person.
+•	To determine the machine learning models that are effective in prediction of smoking and drinking.
+•	To identify the stakeholders and gaps in this research and how they are being addressed.
+
+# Methods and Tools used for Data Analysis
+1.	Several machine learning algorithms were employed including Random Forest, Logistic Regression, and Support Vector Machine (SVM) to analyse the dataset. In addition, LIME (Local Interpretable Model-agnostic Explanations) was applied to interpret the black-box models and explain the significance of individual features contributing to smoking and drinking predictions.
+2.	Data pre-processing and cleaning using Python libraries (Pandas, NumPy).
+3.	Exploratory Data Analysis (EDA) using Matplotlib and Seaborn to identify distributions, correlations, and outliers.
+4.	Model development using Scikit-learn, followed by evaluation with metrics such as precision, recall, F1-score, and accuracy.
+5.	Explainability techniques (LIME) to determine which physiological indicators were most influenced by smoking and drinking.
 
 #Distribution of population who are drinkers
 
@@ -16,20 +31,32 @@ Global projection studies indicate that smoking has over the years had an advers
 
 ![image](https://github.com/user-attachments/assets/eb713f2f-0212-4e1f-9b2d-38c7ce37aede)
 
-The performance results of the Logistic Regression Model show an accuracy score of 0.68 which shows that the model correctly predicted 68% of the test dataset. The classification report shows a precision of 0.83 in class 1, this means that 83% of the data points belong to the actual class 1. The recall score of 0.79 shows that of all data points in class 1, 79% of data points were correctly identified by the model. The F1 Score of 0.81 recorded for class 1 is the weighted harmonic mean of precision and recall for class 1 at 81%. The precision score for class 2 is 0.4 showing that 43% of data points belong to class 2. The recall score of class 2 is 0.35 showing that of all in class 2, 35% of data points were correctly identified by the model. The F1 score of class 2 is 0.39 showing the weighted harmonic mean of precision and recall for class 2 at 39%.
-The precision score for class 3 is 0.48 which means that 48% of data points belong to class 3. The recall score for class 3 is 0.63 which shows that 63% of data points were correctly identified by the model. The F1 score of 0.55 in class 3 shows the weighted harmonic mean of precision and recall for class 3 at 55%.
-
 ![image](https://github.com/user-attachments/assets/8184d086-318c-4120-b788-584c28006137)
 
 Figure 15: LIME Model with the Smoking Feature
 
-The figure above shows the LIME (Local Interpretable Machine-agnostic Explanation) model for smoking. After training the model using LIME, it explained the effect of each feature on the target variable(smoking). It displayed the probabilities of both classes, denoting that the probability of persons in the population predicted as non-smokers lies at 87% and the probability of persons in the population predicted as quit smokers lies at 6% while the probability of active smokers is 7%. Also, active smokers have their BMI, cholesterol levels and livers (SGOT_ALT and SGOT_AST features) highly affected. 
+# Key Findings
+Our Random Forest model outperformed prior studies in precision (83%), though its accuracy (69%) was lower than previous benchmarks (84.4%). Nevertheless, it demonstrated robust consistency across other evaluation metrics (recall and F1-score = 83%). LIME analysis revealed key physiological signals impacted by smoking, such as BMI, cholesterol levels, and liver function (SGOT_ALT and SGOT_AST).
+Drinking was found to affect a broader range of indicators, including kidney function, haemoglobin levels, waistline, blood sugar, blood pressure, and eyesight.
+
+# Project Objectives Achieved
+•	Predicted smoking and drinking status accurately using machine learning techniques.
+•	Identified health risks for secondary smokers (individuals exposed to second-hand smoke).
+•	Determined correlations between body signals and harmful health behaviours.
+•	Compared performance across various ML models and introduced explainability via LIME.
+•	Mapped relevant public health stakeholders and discussed existing research gaps.
+•	Impact and Practical Implications
+•	Enhanced Workforce Productivity: Early identification of health risks aids in reducing illness-related absenteeism and promoting economic vitality.
+•	Healthcare Cost Reduction: Predictive interventions minimize treatment costs for smoking and alcohol-related diseases, supporting families and national health systems.
+•	Mental Health Support: By understanding the physical toll of these behaviours, governments can develop targeted support and addiction recovery programs.
+•	Policy Formation: Findings can shape public health policies around prevention, screening, and education regarding substance abuse and wellness.
 
 
-# Conclusion 
-The Analysis of smoking and drinking has revealed new insights which could be beneficial to the promoting the health status of a population, reduce risks associated with these practices and provide information that helps to promote healthy practices which will mitigate smoking and drinking. The results can be used to determine the body signals that are negatively affected by smoking and drinking behaviours. The models built can be used to predict the smoking and drinking status of persons, for early detection of symptoms in persons who are exposed to secondary smoke for timely intervention.
 
 
+# Conclusion and Recommendations
+This study highlights the transformative potential of artificial intelligence in healthcare, demonstrating how predictive models and data-driven insights can effectively identify and address harmful behavioral patterns. Based on our findings, we recommend sustained investment in AI-enabled public health monitoring systems, the integration of physiological metrics to support early diagnosis and targeted interventions, and the adoption of model explanability techniques such as LIME to enhance transparency and trust in machine learning applications. This project exemplifies my dedication to impactful research, my capability to lead data-driven initiatives, and my preparedness for doctoral study, particularly at the intersection of AI, public health, and social impact.
+ 
 
 
 

@@ -1,9 +1,5 @@
 # Introduction to Smoking and Drinking
-As part of my Master’s degree in Applied Artificial Intelligence and Data Analytics, I undertook a group project in the Applied Machine Learning and Big Data module. This module was designed to equip students with both theoretical understanding and practical skills in machine learning techniques and big data analytics, particularly how these can be applied across various domains to provide data-driven solutions. 
-
-# Project Overview: Analysis of Smoking and Drinking Behaviour for Predictive Intervention
-An objective-question-based exam (constituting 20% of the overall grade), which tested our conceptual understanding of machine learning, model evaluation techniques, and big data strategies. A group research project and technical report (constituting 80% of the overall grade), which focused on solving a real-world problem using machine learning models and tools.
-The group research project titled "Analysis of Smoking and Drinking Behaviour for Predictive Intervention" aimed to explore the use of machine learning models in identifying and mitigating the health risks associated with smoking and alcohol consumption. The objective was to leverage data-driven approaches to uncover patterns in health data, predict harmful behaviours, and provide timely interventions for affected individuals and public health stakeholders.
+The research project titled "Analysis of Smoking and Drinking Behaviour for Predictive Intervention" aimed to explore the use of machine learning models in identifying and mitigating the health risks associated with smoking and alcohol consumption. The objective was to leverage data-driven approaches to uncover patterns in health data, predict harmful behaviours, and provide timely interventions for affected individuals and public health stakeholders.
 
 # Objectives of Analysis
 •	To predict the smoking and Drinking status of persons in a population.
@@ -50,8 +46,6 @@ Drinking was found to affect a broader range of indicators, including kidney fun
 •	Healthcare Cost Reduction: Predictive interventions minimize treatment costs for smoking and alcohol-related diseases, supporting families and national health systems.
 •	Mental Health Support: By understanding the physical toll of these behaviours, governments can develop targeted support and addiction recovery programs.
 •	Policy Formation: Findings can shape public health policies around prevention, screening, and education regarding substance abuse and wellness.
-
-
 
 
 # Conclusion and Recommendations
